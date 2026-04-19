@@ -4,7 +4,8 @@
 #include<vector>
 using namespace std;
 
-class Solution {
+class Solution
+{
     public:
         void reverserange(vector<int> &nums, int start, int end)
         {

@@ -4,7 +4,8 @@
 #include<vector>
 using namespace std;
 
-class Solution{
+class Solution
+{
     public:
         void moveZeros(vector<int> &nums)
         {
@@ -14,7 +15,7 @@ class Solution{
             }
 
             int temp = 0, k = 0;
-            for(int i = 0; i < n; i++)
+            for(int i = 0; i < nums.size(); i++)
             {
                 if(nums[i] != 0)
                 {
