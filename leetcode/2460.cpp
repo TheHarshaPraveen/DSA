@@ -41,7 +41,7 @@ int main()
     vector<int> result = sol.applyOperations(nums);
     for(int i = 0; i < result.size(); i++)
     {
-        cout << nums[i] << " ";
+        cout << result[i] << " ";
     }
 
     return 0;
